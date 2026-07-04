@@ -138,55 +138,47 @@ rag_chatbot/
 
 ---
 
-# 🚀 Installation
-
-Clone the repository:
+## 🚀 Installation
 
 ```bash
-git clone https://github.com/yourusername/ai-knowledge-assistant.git
+git clone https://github.com/Snehaa204/ai-knowledge-assistant-rag.git
 
-cd ai-knowledge-assistant
-```
+cd ai-knowledge-assistant-rag
 
-Create a virtual environment:
-
-```bash
 python -m venv venv
-```
 
-Activate the environment:
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### macOS/Linux
-
-```bash
 source venv/bin/activate
-```
 
-Install dependencies:
-
-```bash
 pip install -r requirements.txt
 ```
 
 Create a `.env` file:
 
 ```text
-GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
+GOOGLE_API_KEY=your_api_key_here
 ```
 
-Run the application:
+Run:
 
 ```bash
 streamlit run app.py
 ```
 
 ---
+
+## 📄 Adding Your Own Documents
+
+This repository does not include PDF documents.
+
+Place your own PDFs inside:
+
+```text
+data/pdfs/
+```
+
+Then rebuild the knowledge base from the Streamlit sidebar by clicking:
+
+**🔄 Rebuild Knowledge Base**
 
 # 💻 Usage
 
